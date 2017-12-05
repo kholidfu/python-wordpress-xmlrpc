@@ -30,6 +30,7 @@ First, let's see how to retrieve normal WordPress posts::
 And here's how to create and edit a new post::
 
 	from wordpress_xmlrpc import WordPressPost
+	from wordpress_xmlrpc.methods import posts
 
 	post = WordPressPost()
 	post.title = 'My post'
